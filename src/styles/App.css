@@ -1,0 +1,95 @@
+/* Base Application Styles */
+body {
+  color: #333;
+  background: #ffffff;
+  padding:0;
+  margin:0;
+}
+h1,ul{
+  margin:0;
+  padding:0;
+}
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+/*
+ rechart style
+**/
+.nav{
+  width:100%;
+  height: 60px;
+  background: #333;
+  text-align: center;
+}
+.nav h1{
+  color:#fff;
+  line-height: 60px;
+  float:left;
+  height: 60px;
+  margin:0 0px 0 50px;
+}
+.nav ul{
+  display: inline-block;
+  margin:0;
+}
+.nav ul li{
+  float: left;
+  list-style: none;
+}
+.nav ul li a{
+  color: #f0f0f0;
+  text-decoration: none;
+  padding:0 20px;
+  display: block;
+  line-height: 60px;
+}
+.nav ul li a.active{
+  color:steelblue;
+  background: #000;
+}
+
+
+.legend{
+  color: #222;
+}
+.container{
+  width: auto;
+  border:1px solid steelblue;
+  float: left;
+  padding:20px 0;
+  box-shadow: 1px 1px 5px steelblue;
+}
+.container h2{
+  text-align: center;
+  color: #222222;
+}
+.chart-container{
+  width: 1205px;
+  margin: 0 auto;
+}
+.react-d3-basics__tooltip_utils{
+  color: #333;
+}
+.container h2{
+  text-align: center;
+}
+.recharts-legend-item {
+  color: #333333;
+}
+.wrapper {
+  width: 600px;
+  height: 400px;
+}
+
